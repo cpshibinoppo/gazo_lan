@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fuel Point By MPB</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f4f7fa, #e2ebf0);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 2rem;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 500px;
+      background: white;
+      border-radius: 20px;
+      padding: 3rem 2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 1.5rem;
+      font-weight: normal;
+      color: #666;
+    }
+
+    p {
+      font-size: 1rem;
+      margin: 1rem 0;
+      color: #666;
+    }
+
+    .download-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin: 1.5rem 0;
+    }
+
+    .download-button {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      padding: 0.75rem 1.25rem;
+      border-radius: 10px;
+      font-size: 0.9rem;
+      transition: background 0.3s;
+      font-weight: 500;
+    }
+
+    .download-button svg {
+      width: 20px;
+      height: 20px;
+    }
+
+    .ios {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .ios:hover {
+      background-color: #333;
+    }
+
+    .android {
+      background-color: #3ddc84;
+      color: #000;
+    }
+
+    .android:hover {
+      background-color: #2db56f;
+    }
+
+    .footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .footer a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .footer .contact-button {
+      background-color: #25D366;
+      color: white;
+      padding: 0.4rem 1rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .footer .contact-button:hover {
+      background-color: #1ebc59;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img class="logo" src="https://wasla.pro/assets/front/img/user/vcard/682721ce6b1eb.png" alt="App Logo" />
+    <h1>Download for your Phone</h1>
+    <p>Fuel Point App by MPB Areekode & Earn points.</p>
+    
+    <div class="download-buttons">
+      <a class="download-button ios" href="https://apps.apple.com/" target="_blank">
+        <svg fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+          <path d="M318.7 268c-.2-42.8 18.7-75.2 57.2-98.4-21.5-30.7-52.5-47.7-92.7-51.2-39-3.4-81.7 23.1-97.6 23.1s-51.4-22.4-79.5-21.8c-40.8.6-76.2 23.9-96.9 61.2-41.3 72.2-10.5 178.4 29.6 236.8 19.7 28.8 43.1 61.1 73.9 59.8 29.3-1.2 40.4-19.1 75.6-19.1s45.1 19.1 75.6 18.5c31.3-.6 51.1-29.5 70.4-58.7 22.3-33.5 31.4-66 31.7-67.7-0.7-0.3-60.7-23.4-60.9-92.5zM260.2 75.8c17.9-21.7 15.6-41.8 15-49.3-15.1.6-32.8 10.1-43.3 22.6-9.5 11.1-17.8 28.9-15.6 45.7 16.4 1.3 33.2-7.6 43.9-19z"/>
+        </svg>
+        App Store
+      </a>
+      <a class="download-button android" href="https://play.google.com/store/apps/details?id=com.fuelpointsky.com" target="_blank">
+        <svg fill="#000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path d="M256 0c-17.7 0-32 14.3-32 32v26.7c-52.2 7.3-93.2 51.7-93.2 105.3V224h-48v96h48v160c0 17.7 14.3 32 32 32s32-14.3 32-32V320h64v160c0 17.7 14.3 32 32 32s32-14.3 32-32V320h48v-96h-48v-59.9c0-53.6-41-98-93.2-105.3V32c0-17.7-14.3-32-32-32z"/>
+        </svg>
+        Google Play
+      </a>
+    </div>
+<a class="contact-button" href="tel:+918044464611" target="_blank">Call For Support</a>
+    <div class="footer">
+      <a href="https://skysecretary.com" target="_blank">Developed by SkySecretary Areekode</a>
+      <a class="contact-button" href="https://wa.me/919048105191" target="_blank">Sky WA</a>
+    </div>
+  </div>
+</body>
+</html>
